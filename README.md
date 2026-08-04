@@ -52,6 +52,10 @@ Si Docker Desktop no funciona, este repositorio incluye workflow para construir 
 
 ### Publicacion automatica
 - El workflow se ejecuta al hacer push a `main` o manualmente desde Actions.
+- Antes de publicar, ejecuta una prueba automatica en GitHub Actions:
+	- construye la imagen
+	- levanta un contenedor temporal
+	- valida respuesta HTTP en `http://localhost:5173`
 - Publica la imagen en:
 	- `DOCKERHUB_USERNAME/react-vite-docker:latest`
 	- `DOCKERHUB_USERNAME/react-vite-docker:<sha-corto>`
