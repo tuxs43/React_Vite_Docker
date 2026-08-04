@@ -1,0 +1,6 @@
+node_modules
+dist
+.git
+.github
+.tmp-vite
+npm-debug.log*
