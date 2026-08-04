@@ -64,9 +64,6 @@ Si Docker Desktop no funciona, este repositorio incluye workflow para construir 
 - docker pull DOCKERHUB_USERNAME/react-vite-docker:latest
 - docker run --rm -p 5173:5173 DOCKERHUB_USERNAME/react-vite-docker:latest
 
-## Validacion automatica (skill)
-- powershell -ExecutionPolicy Bypass -File ./.github/skills/actividad-evaluada/scripts/validar.ps1
-
 ## Rutas de acceso
 - Repositorio GitHub: https://github.com/tuxs43/React_Vite_Docker
 - Workflow Docker Hub (GitHub Actions): https://github.com/tuxs43/React_Vite_Docker/actions/workflows/dockerhub.yml
